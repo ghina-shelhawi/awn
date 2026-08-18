@@ -1,0 +1,47 @@
+a {
+  text-decoration: none;
+}
+li {
+  color: white;
+}
+.li-color {
+  background-color: orange;
+  height: 1.5px;
+  border: none;
+  opacity: 0;
+}
+.active li,
+.p-hover:hover {
+  color: orange;
+  transition: all 0.2s;
+}
+.p-hover:hover {
+  border-bottom: 2px solid#024a92;
+}
+
+.active hr {
+  opacity: 1.5;
+  transition: all 0.2s;
+}
+.p-hover {
+  padding: 10px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.hover-zoom {
+  box-shadow: 0 4px 10px rgba(20, 33, 61, 0.6);
+  /* حركة ناعمة */
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.hover-zoom:hover {
+  /* تأثير الارتفاع للأعلى */
+  transform: translateY(-15px);
+  /* زيادة الظل ليصبح أكثر وضوحاً وتوهجاً */
+  box-shadow: 0 15px 25px rgba(20, 33, 61, 0.4);
+}

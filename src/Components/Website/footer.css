@@ -1,0 +1,65 @@
+.custom-footer {
+  background-color: #14213d;
+  color: #f8f9fa;
+
+  border-top: 3px solid orange;
+}
+
+/* شعار المنصة */
+.footer-logo {
+  color: orange;
+  font-size: 1.8rem;
+}
+
+.footer-about {
+  color: #a0aec0 !important;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.footer-links a {
+  color: #a0aec0;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.footer-links a:hover {
+  color: #fab005;
+  padding-right: 5px;
+}
+
+.social-circle {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #a0aec0;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+.social-circle:hover {
+  background-color: #fab005;
+  color: #0c1a30;
+  transform: translateY(-3px);
+}
+
+.footer-icon-gold {
+  color: #fab005;
+}
+
+.footer-hr {
+  border-color: #ffffff;
+}
+
+.footer-bottom {
+  color: #718096 !important;
+}
+
+.text-right {
+  text-align: right;
+}

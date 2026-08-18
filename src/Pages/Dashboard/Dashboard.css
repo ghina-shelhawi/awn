@@ -1,0 +1,11 @@
+.dashboard {
+  min-height: 100vh;
+  background-color: #f7fafa;
+}
+.nn {
+  width: 300px !important;
+  background-position: center;
+  height: 300px;
+  object-fit: cover;
+  background-image: url("../../Assest/photo_2026-06-08_16-29-14.jpg");
+}

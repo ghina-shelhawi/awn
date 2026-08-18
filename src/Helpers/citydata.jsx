@@ -1,0 +1,16 @@
+export const citiesData = [
+  { cityName: "دمشق", lat: 33.5138, lng: 36.2877 },
+  { cityName: "حلب", lat: 36.2021, lng: 37.1343 },
+  { cityName: "حمص", lat: 34.7324, lng: 36.7137 },
+  { cityName: "حماة", lat: 35.1318, lng: 36.7578 },
+  { cityName: "اللاذقية", lat: 35.5317, lng: 35.7908 },
+  { cityName: "طرطوس", lat: 34.889, lng: 35.8864 },
+  { cityName: "دير الزور", lat: 35.337, lng: 40.1479 },
+  { cityName: "الرقة", lat: 35.9507, lng: 39.0125 },
+  { cityName: "ادلب", lat: 35.9283, lng: 36.6346 },
+  { cityName: "درعا", lat: 32.6223, lng: 36.1042 },
+  { cityName: "السويداء", lat: 32.7093, lng: 36.5687 },
+  { cityName: "القنيطرة", lat: 33.1256, lng: 35.8286 },
+  { cityName: "الحسكة", lat: 36.4965, lng: 40.7483 },
+  { cityName: "ريف دمشق", lat: 33.5, lng: 36.3 },
+];
