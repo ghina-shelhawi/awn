@@ -10,7 +10,7 @@ import "./sass/Custom.css";
 import "./Pages/Dashboard/Dashboard.css";
 import "./Pages/Website/Website.css";
 import "./index.css";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Windocontext from "./Context/Windowsize";
 import "react-loading-skeleton/dist/skeleton.css";
 import Menucontext from "./Context/Menu";
@@ -20,10 +20,10 @@ root.render(
   <Windocontext>
     <Menucontext>
       <AuthProvider>
-        <BrowserRouter>
+        <HashRouter>
           <App />
           <ToastContainer position="top-center" />
-        </BrowserRouter>
+        </HashRouter>
       </AuthProvider>
     </Menucontext>
   </Windocontext>,
